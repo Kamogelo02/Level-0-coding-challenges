@@ -1,4 +1,4 @@
-def hello(str):
-    print("Hello " + str)
+def hello(name):
+    print("Hello " + name+ "!")
 
 hello("Tshepo")
