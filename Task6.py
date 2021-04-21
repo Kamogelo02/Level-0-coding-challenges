@@ -4,4 +4,4 @@ def maximum(*numbers):
         if a>largest:
             largest=a   
     return largest
-print(maximum(1,3,6,200,90))    
+maximum(1,3,6,200,90)   
