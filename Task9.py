@@ -1,7 +1,7 @@
-def vowel(word):
+def vowel(string):
     vowels= "aeiouAEIOU"
     print("Vowels: ", end="")
-    for letter in word:
-        if letter in vowels:
-            print(letter, end =", ")
+    for letters in string:
+        if letters in vowels:
+            print(letters, end =", ")
 vowel("Umuzi")
