@@ -1,7 +1,7 @@
 def maximum(*numbers):
     largest= numbers[0]
-    for a in numbers:
-        if a>largest:
-            largest=a   
+    for x in numbers:
+        if x>largest:
+            largest=x   
     return largest
 maximum(1,3,6,200,90)   
