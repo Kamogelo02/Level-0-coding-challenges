@@ -12,4 +12,8 @@ def convert_into_hours_and_minutes(number):
         output=f"{output}{minutes} minute."
     return output
 
-print(convert_into_hours_and_minutes(71))
+def main():
+    print(convert_into_hours_and_minutes(71))
+    
+if __name__== "__main__":
+    main()
