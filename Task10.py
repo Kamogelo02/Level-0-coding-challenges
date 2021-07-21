@@ -1,7 +1,15 @@
-def common_letters(string_one,string_two):
-    words= list(set(string_one) &set(string_two))
-    print("Common letters: ", end=" ")
-    for letter in words:
-      print(letter, end= ", ")
+def common_letters(string1,string2):
+    output=[]
+
+    for letter in string1:
+      if (letter in string2):
+        output.append(letter)
     
-common_letters("house", "computers")
+    output= ', '.join(output)
+    print(f"Common letters: {output}")
+
+def main():      
+    common_letters("house", "computers")
+
+if __name__=="__main__":
+  main()
