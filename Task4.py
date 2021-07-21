@@ -3,4 +3,9 @@ def even_or_odd(x):
     print("even")
   else:
     print("odd")
-even_or_odd(5)
+
+def main():
+  even_or_odd(5)
+
+if __name__=="__main__":
+  main()
