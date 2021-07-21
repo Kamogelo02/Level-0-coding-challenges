@@ -4,4 +4,9 @@ def maximum(*numbers):
         if x>largest:
             largest=x   
     return largest
-print(maximum(1,3,6,200,90))  
+
+def main():
+    print(maximum(1,3,6,200,90))
+
+if __name__=="__main__":
+    main() 
